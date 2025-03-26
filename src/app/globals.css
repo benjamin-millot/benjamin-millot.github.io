@@ -4,19 +4,23 @@
 
 @layer base {
   :root {
-    --background: #ffffff;
+    --background: #f3f4f6;
     --foreground: #171717;
   }
 
   @media (prefers-color-scheme: dark) {
     :root {
-      --background: #171717;
+      --background: #1f2937;
       --foreground: #ffffff;
     }
   }
 
-  body {
-    @apply bg-white dark:bg-gray-900 text-gray-900 dark:text-white;
+  html, body {
+    @apply bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-white min-h-screen;
+  }
+
+  main {
+    @apply bg-gray-50 dark:bg-gray-900;
   }
 }
 

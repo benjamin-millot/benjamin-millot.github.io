@@ -1,6 +1,6 @@
 export default function CV() {
   return (
-    <main className="min-h-screen bg-white py-12">
+    <main className="min-h-screen py-12">
       <div className="max-w-3xl mx-auto px-4">
         <header className="mb-12 text-center">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">Benjamin</h1>
